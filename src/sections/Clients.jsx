@@ -61,7 +61,7 @@ const Clients = () => {
                                     {category.skills.map(({id, skill, level}) => (
                                         <div key={id} className="skill-item">
                                             <div className="flex items-center gap-3">
-                                                <img src="/assets/star.png" alt="star" className="w-6 h-6"/>
+                                                <img src="./assets/star.png" alt="star" className="w-6 h-6"/>
                                                 <div className="flex flex-col">
                                                     <p className="font-semibold text-white-800">{skill}</p>
                                                     <p className="text-white-500 text-sm">{level}</p>

@@ -62,28 +62,28 @@ export const myProjects = [
         desc: 'This website that you are currently scrolling through, showcasing my skills through an immersive 3D experience and interactive elements.',
         subdesc: 'Engineered with React.js and Three.js, the portfolio features a 3D figure of the Spot from Across the Spider Verse movie, dynamic project showcase, engaging experience timeline, and a responsive contact form, optimized for performance across different devices.',
         href: '/',
-        texture: '/textures/project/portfolio.PNG',
-        spotlight: '/assets/spotlight4.png',
+        texture: './textures/project/portfolio.PNG',
+        spotlight: './assets/spotlight4.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: './assets/react.svg',
             },
             {
                 id: 2,
                 name: 'Three.js',
-                path: '/assets/Three.js.svg',
+                path: './assets/Three.js.svg',
             },
             {
                 id: 3,
                 name: 'Tailwind CSS',
-                path: '/assets/tailwindcss.png',
+                path: './assets/tailwindcss.png',
             },
             {
                 id: 4,
                 name: 'WebStorm',
-                path: '/assets/WebStorm.svg',
+                path: './assets/WebStorm.svg',
             },
         ],
     },
@@ -98,17 +98,17 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'Python',
-                path: '/assets/python_logo.svg',
+                path: './assets/python_logo.svg',
             },
             {
                 id: 2,
                 name: 'Flask',
-                path: 'assets/Flask.svg',
+                path: './assets/Flask.svg',
             },
             {
                 id: 3,
                 name: 'Streamlit',
-                path: '/assets/Streamlit.svg',
+                path: './assets/Streamlit.svg',
             },
         ],
     },
@@ -123,12 +123,12 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'JavaScript',
-                path: '/assets/JavaScript.svg',
+                path: './assets/JavaScript.svg',
             },
             {
                 id: 2,
                 name: 'HTML5',
-                path: 'assets/HTML5.svg',
+                path: './assets/HTML5.svg',
             },
             {
                 id: 3,
@@ -153,17 +153,17 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'HTML5',
-                path: '/assets/HTML5.svg',
+                path: './assets/HTML5.svg',
             },
             {
                 id: 2,
                 name: 'CSS3',
-                path: 'assets/CSS3.svg',
+                path: './assets/CSS3.svg',
             },
             {
                 id: 3,
                 name: 'JavaScript',
-                path: '/assets/JavaScript.svg',
+                path: './assets/JavaScript.svg',
             },
         ],
     },
@@ -178,7 +178,7 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'Python',
-                path: '/assets/python_logo.svg',
+                path: './assets/python_logo.svg',
             },
         ],
     },
@@ -208,7 +208,7 @@ export const workExperiences = [
             '- Contributed to a decision-support tool, still used by lab members for ongoing research, improving ingredient evaluation efficiency by 30%, measured by faster decision-making in lab trials.',
             '- Optimized the back-end system and integrated 50+ datasets, achieving a 75% faster running time and enhancing data processing, measured by reduced processing time and increased uptime.'
         ],
-        icon: '/assets/ucsc_logo.jfif',
+        icon: './assets/ucsc_logo.jfif',
         animation: 'victory',
     },
     {
@@ -221,7 +221,7 @@ export const workExperiences = [
             '- Collaborated in building a decision-support tool using Python, improving ingredient selection accuracy by 30%, measured through user surveys and data analysis.',
             '- Integrated back-end functionality for real-time data processing and designed a WordPress website, enhancing user engagement by 40%, measured by interactions with features and session time, while providing an intuitive platform for accessing sustainability data.'
         ],
-        icon: '/assets/citris__logo.jfif',
+        icon: './assets/citris__logo.jfif',
         animation: 'clapping',
     }
     ,
