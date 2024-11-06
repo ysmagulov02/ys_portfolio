@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function HackerRoom5(props) {
-    const { nodes, materials } = useGLTF('/models/hacker-room5.glb')
+    const { nodes, materials } = useGLTF('./models/hacker-room5.glb')
     return (
         <group {...props} dispose={null}>
             <group rotation={[-Math.PI / 2, 0, 0]} scale={0.844}>
@@ -181,5 +181,5 @@ export function HackerRoom5(props) {
     )
 }
 
-useGLTF.preload('/models/hacker-room5.glb')
+useGLTF.preload('./models/hacker-room5.glb')
 
