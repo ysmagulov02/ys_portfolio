@@ -14,13 +14,13 @@ const Footer = () => {
             <div className="flex gap-3">
                 <a href="https://github.com/ysmagulov02" target="_blank" rel="noopener noreferrer">
                     <div className="social-icon">
-                        <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2"/>
+                        <img src="./assets/github.svg" alt="github" className="w-1/2 h-1/2"/>
                     </div>
                 </a>
 
                 <a href="https://www.linkedin.com/in/yernar-smagulov/" target="_blank" rel="noopener noreferrer">
                     <div className="social-icon">
-                        <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2"/>
+                        <img src="./assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2"/>
                     </div>
                 </a>
             </div>
