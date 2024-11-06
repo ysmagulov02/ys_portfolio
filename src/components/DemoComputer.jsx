@@ -13,7 +13,7 @@ const DemoComputer = (props) => {
     const { nodes, materials, animations } = useGLTF('./models/computer.glb')
     // const txt = useVideoTexture( props.texture ? props.texture : '/textures/project/project1.mp4');
 
-    const txt = useTexture(props.texture ? props.texture : '/textures/project/error-codes.png');
+    const txt = useTexture(props.texture ? props.texture : './textures/project/error-codes.png');
 
     useEffect(() => {
         if(txt) {

@@ -21,47 +21,47 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
-    {
-        id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-        id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-        id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-        id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-];
+// export const clientReviews = [
+//     {
+//         id: 1,
+//         name: 'Emily Johnson',
+//         position: 'Marketing Director at GreenLeaf',
+//         img: 'assets/review1.png',
+//         review:
+//             'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+//     },
+//     {
+//         id: 2,
+//         name: 'Mark Rogers',
+//         position: 'Founder of TechGear Shop',
+//         img: 'assets/review2.png',
+//         review:
+//             'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+//     },
+//     {
+//         id: 3,
+//         name: 'John Dohsas',
+//         position: 'Project Manager at UrbanTech ',
+//         img: 'assets/review3.png',
+//         review:
+//             'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+//     },
+//     {
+//         id: 4,
+//         name: 'Ether Smith',
+//         position: 'CEO of BrightStar Enterprises',
+//         img: 'assets/review4.png',
+//         review:
+//             'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+//     },
+// ];
 
 export const myProjects = [
     {
         title: 'Personal Portfolio',
         desc: 'This website that you are currently scrolling through, showcasing my skills through an immersive 3D experience and interactive elements.',
         subdesc: 'Engineered with React.js and Three.js, the portfolio features a 3D figure of the Spot from Across the Spider Verse movie, dynamic project showcase, engaging experience timeline, and a responsive contact form, optimized for performance across different devices.',
-        href: '/',
+        href: 'https://ysmagulov02.github.io/ys_portfolio/',
         texture: './textures/project/portfolio.PNG',
         spotlight: './assets/spotlight4.png',
         tags: [
@@ -92,8 +92,8 @@ export const myProjects = [
         desc: 'A web application that helps users find recipes based on available pantry ingredients using machine learning to offer personalized suggestions.',
         subdesc: 'Developed with Python, Flask, and Streamlit, PantryPal features an intuitive interface for ingredient input, dietary filters, and real-time recipe recommendations tailored to user preferences.',
         href: 'https://github.com/PantryPal-1/pantry-client',
-        texture: '/textures/project/pantry-pal.png',
-        spotlight: '/assets/spotlight1.png',
+        texture: './textures/project/pantry-pal.png',
+        spotlight: './assets/spotlight1.png',
         tags: [
             {
                 id: 1,
@@ -117,8 +117,8 @@ export const myProjects = [
         desc: 'A 3D interactive environment with a customizable blocky animal, dynamic textures, and smooth camera movement across a simple, vibrant landscape.',
         subdesc: 'Built with JavaScipt and HTMl, this project leverages 3D modeling, transformation, and rendering techniques, achieving 140+ fps on a 32x32 map. Includes multiple textures and camera controls.',
         href: 'https://ysmagulov02.github.io/cse160---asgn3B/src/World.html',
-        texture: '/textures/project/blocky_animal.PNG',
-        spotlight: '/assets/spotlight2.png',
+        texture: './textures/project/blocky_animal.PNG',
+        spotlight: './assets/spotlight2.png',
         tags: [
             {
                 id: 1,
@@ -133,12 +133,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Three.js',
-                path: '/assets/Three.js.svg',
+                path: './assets/Three.js.svg',
             },
             {
                 id: 4,
                 name: 'Blender',
-                path: '/assets/Blender.svg',
+                path: './assets/Blender.svg',
             },
         ],
     },
@@ -147,8 +147,8 @@ export const myProjects = [
         desc: 'An interactive tool to compare distances and elevations of popular long-distance trails across the United States, visualized with clean, dynamic graphs.',
         subdesc: 'Built using HTML, CSS, and JavaScript, this application lets users compare trails like the Appalachian Trail and Pacific Crest Trail, offering a unique view of trail data through interactive elements.',
         href: 'https://dpelissiry.github.io/LongDistanceTrails/',
-        texture: '/textures/project/trails.PNG',
-        spotlight: '/assets/spotlight3.png',
+        texture: './textures/project/trails.PNG',
+        spotlight: './assets/spotlight3.png',
         tags: [
             {
                 id: 1,
@@ -172,8 +172,8 @@ export const myProjects = [
         desc: 'A 2D multiplayer game inspired by Overwatch, featuring fast-paced gameplay with health tracking, collision detection, and sound effects.',
         subdesc: 'Developed with Python, this game combines core multiplayer mechanics, including dynamic health bars and retro-inspired sound elements, to deliver an immersive experience reminiscent of classic arcade games.',
         href: 'https://github.com/ysmagulov02/overwatch_game',
-        texture: '/textures/project/overwatch.png',
-        spotlight: '/assets/spotlight5.png',
+        texture: './textures/project/overwatch.png',
+        spotlight: './assets/spotlight5.png',
         tags: [
             {
                 id: 1,
